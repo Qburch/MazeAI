@@ -1,0 +1,182 @@
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\appsettings.json
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.exe
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.deps.json
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.runtimeconfig.json
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.pdb
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.csproj.AssemblyReference.cache
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.AssemblyInfoInputs.cache
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.AssemblyInfo.cs
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.csproj.CoreCompileInputs.cache
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.DefaultSite.Web.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.build.DefaultSite.Web.Api.props
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DefaultSite.Web.Api.props
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DefaultSite.Web.Api.props
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\scopedcss\bundle\DefaultSite.Web.Api.styles.css
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.csproj.CopyComplete
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\refint\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.pdb
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.genruntimeconfig.cache
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\obj\Debug\net7.0\ref\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\DefaultSite.Services.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Models.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\DefaultSite.Data.pdb
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\DefaultSite.Models.pdb
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\DefaultSite.Services.pdb
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Models.pdb
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\appsettings.json
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.exe
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.deps.json
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.runtimeconfig.json
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.pdb
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Services.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Models.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Data.pdb
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Models.pdb
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Services.pdb
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Models.pdb
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.csproj.AssemblyReference.cache
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.AssemblyInfoInputs.cache
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.AssemblyInfo.cs
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.csproj.CoreCompileInputs.cache
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.DefaultSite.Web.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.build.DefaultSite.Web.Api.props
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DefaultSite.Web.Api.props
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DefaultSite.Web.Api.props
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\scopedcss\bundle\DefaultSite.Web.Api.styles.css
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.csproj.CopyComplete
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\refint\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.pdb
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.genruntimeconfig.cache
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite\obj\Debug\net7.0\ref\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\appsettings.json
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.exe
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.deps.json
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.runtimeconfig.json
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.pdb
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Services.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Models.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Data.pdb
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Models.pdb
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Services.pdb
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Models.pdb
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.csproj.AssemblyReference.cache
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.AssemblyInfoInputs.cache
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.AssemblyInfo.cs
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.csproj.CoreCompileInputs.cache
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.DefaultSite.Web.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.build.DefaultSite.Web.Api.props
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DefaultSite.Web.Api.props
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DefaultSite.Web.Api.props
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\scopedcss\bundle\DefaultSite.Web.Api.styles.css
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.csproj.CopyComplete
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\refint\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.pdb
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.genruntimeconfig.cache
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite\obj\Debug\net7.0\ref\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\appsettings.json
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.exe
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.deps.json
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.runtimeconfig.json
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Api.pdb
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Services.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Models.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Models.pdb
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Services.pdb
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\bin\Debug\net7.0\DefaultSite.Web.Models.pdb
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.csproj.AssemblyReference.cache
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.AssemblyInfoInputs.cache
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.AssemblyInfo.cs
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.csproj.CoreCompileInputs.cache
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.DefaultSite.Web.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.build.DefaultSite.Web.Api.props
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DefaultSite.Web.Api.props
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DefaultSite.Web.Api.props
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\scopedcss\bundle\DefaultSite.Web.Api.styles.css
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.csproj.CopyComplete
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\refint\DefaultSite.Web.Api.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.pdb
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\DefaultSite.Web.Api.genruntimeconfig.cache
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite\obj\Debug\net7.0\ref\DefaultSite.Web.Api.dll

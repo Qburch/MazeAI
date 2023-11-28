@@ -1,0 +1,36 @@
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Data\bin\Debug\net7.0\DefaultSite.Data.deps.json
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Data\bin\Debug\net7.0\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Data\bin\Debug\net7.0\DefaultSite.Data.pdb
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.csproj.AssemblyReference.cache
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.AssemblyInfoInputs.cache
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.AssemblyInfo.cs
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.csproj.CoreCompileInputs.cache
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Data\obj\Debug\net7.0\refint\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.pdb
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Data\obj\Debug\net7.0\ref\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Data\bin\Debug\net7.0\DefaultSite.Data.deps.json
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Data\bin\Debug\net7.0\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Data\bin\Debug\net7.0\DefaultSite.Data.pdb
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.csproj.AssemblyReference.cache
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.AssemblyInfoInputs.cache
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.AssemblyInfo.cs
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.csproj.CoreCompileInputs.cache
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Data\obj\Debug\net7.0\refint\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.pdb
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Data\obj\Debug\net7.0\ref\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Data\bin\Debug\net7.0\DefaultSite.Data.deps.json
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Data\bin\Debug\net7.0\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Data\bin\Debug\net7.0\DefaultSite.Data.pdb
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.csproj.AssemblyReference.cache
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.AssemblyInfoInputs.cache
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.AssemblyInfo.cs
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.csproj.CoreCompileInputs.cache
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Data\obj\Debug\net7.0\refint\DefaultSite.Data.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Data\obj\Debug\net7.0\DefaultSite.Data.pdb
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Data\obj\Debug\net7.0\ref\DefaultSite.Data.dll

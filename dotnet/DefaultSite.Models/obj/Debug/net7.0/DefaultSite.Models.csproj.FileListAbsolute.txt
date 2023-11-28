@@ -1,0 +1,48 @@
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Models\bin\Debug\net7.0\DefaultSite.Models.deps.json
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Models\bin\Debug\net7.0\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Models\bin\Debug\net7.0\DefaultSite.Models.pdb
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.csproj.AssemblyReference.cache
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.AssemblyInfoInputs.cache
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.AssemblyInfo.cs
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.csproj.CoreCompileInputs.cache
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Models\obj\Debug\net7.0\refint\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.pdb
+C:\Users\quinn\Personal Projects\NFL Website\DefaultSite\DefaultSite.Models\obj\Debug\net7.0\ref\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Models\bin\Debug\net7.0\DefaultSite.Models.deps.json
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Models\bin\Debug\net7.0\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Models\bin\Debug\net7.0\DefaultSite.Models.pdb
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.csproj.AssemblyReference.cache
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.AssemblyInfoInputs.cache
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.AssemblyInfo.cs
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.csproj.CoreCompileInputs.cache
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Models\obj\Debug\net7.0\refint\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.pdb
+C:\Users\quinn\Personal Projects\NFL Website\dotnet\DefaultSite.Models\obj\Debug\net7.0\ref\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Models\bin\Debug\net7.0\DefaultSite.Models.deps.json
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Models\bin\Debug\net7.0\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Models\bin\Debug\net7.0\DefaultSite.Models.pdb
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.csproj.AssemblyReference.cache
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.AssemblyInfoInputs.cache
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.AssemblyInfo.cs
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.csproj.CoreCompileInputs.cache
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Models\obj\Debug\net7.0\refint\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.pdb
+C:\Users\quinn\Personal Projects\Default Front and Backend\dotnet\DefaultSite.Models\obj\Debug\net7.0\ref\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite.Models\bin\Debug\net7.0\DefaultSite.Models.deps.json
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite.Models\bin\Debug\net7.0\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite.Models\bin\Debug\net7.0\DefaultSite.Models.pdb
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.csproj.AssemblyReference.cache
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.AssemblyInfoInputs.cache
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.AssemblyInfo.cs
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.csproj.CoreCompileInputs.cache
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite.Models\obj\Debug\net7.0\refint\DefaultSite.Models.dll
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite.Models\obj\Debug\net7.0\DefaultSite.Models.pdb
+C:\Users\quinn\Personal Projects\Maze AI\dotnet\DefaultSite.Models\obj\Debug\net7.0\ref\DefaultSite.Models.dll
