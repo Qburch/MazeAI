@@ -1,0 +1,14 @@
+div.row div {
+    aspect-ratio: 1;
+    padding: 0rem;
+}
+
+.maze-grid {
+    max-width: 25rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
+}
+
+.maze-btn {
+    display: block;
+}
