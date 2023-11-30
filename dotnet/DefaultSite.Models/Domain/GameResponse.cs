@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace DefaultSite.Models.Domain
 {
-    public class MazeResponse
+    public class GameResponse
     {
-        public List<GameResponse> GamesData { get; set; }
-
-        public bool FoundMostEfficientPath { get; set; }
+        public List<int> StateMoves { get; set; }
+        public bool HasFoundExit { get; set; }
     }
 }

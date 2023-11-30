@@ -1,4 +1,5 @@
 ﻿using DefaultSite.Models.Domain;
+using DefaultSite.Services;
 using DefaultSite.Services.Interfaces;
 using DefaultSite.Web.Models.Responses;
 using Microsoft.AspNetCore.Http;
@@ -10,21 +11,18 @@ namespace DefaultSite.Web.Api.Controllers
     [ApiController]
     public class MazeApiController : BaseApiController
     {
-        IMazeAIService _service;
-
-        public MazeApiController(IMazeAIService service, ILogger<MazeApiController> logger) : base(logger) {
-            _service = service;
+        public MazeApiController(ILogger<MazeApiController> logger) : base(logger) {
         }
 
         [HttpPost]
-        public ActionResult<SuccessResponse> CreateBoard(int[][] grid)
+        public ActionResult<ItemResponse<MazeResponse>> GetMostEfficientPath(int[][] grid)
         {
-            int iCode = 201;
+            int iCode = 200;
             BaseResponse response;
             try
             {
-                _service.InitiateBoard(grid);
-                response = new SuccessResponse();
+                MazeResponse data = RunMaze(grid);
+                response = new ItemResponse<MazeResponse> { Item = data };
             }
             catch (Exception ex)
             {
@@ -35,44 +33,49 @@ namespace DefaultSite.Web.Api.Controllers
             return StatusCode(iCode, response);
         }
 
-        [HttpPut]
-        public ActionResult<SuccessResponse> ResetBoard()
+        private MazeResponse RunMaze(int[][] grid)
         {
-            int iCode = 200;
-            BaseResponse response;
-            try
-            {
-                _service.ResetBoard();
-                response = new SuccessResponse();
-            }
-            catch (Exception ex)
-            {
-                iCode = 500;
-                response = new ErrorResponse("Error Intializing Board");
-                base.Logger.LogError(ex.Message);
-            }
-            return StatusCode(iCode, response);
-        }
+            IMazeAIService mazeService = new MazeAIService(grid);
 
-        [HttpGet]
-        public ActionResult<ItemResponse<MoveAIResponse>> MakeMove()
-        {
-            int iCode = 200;
-            BaseResponse response;
-            try
+            MazeResponse response = new MazeResponse();
+            response.GamesData = new List<GameResponse>();
+
+            int minSteps = 200;
+            int consecutiveMin = 0;
+
+            List<int> moves = new List<int>();
+            for (int i = 0; i < 200; i++)
             {
-                response = new ItemResponse<MoveAIResponse>
+                GameResponse gameResponse = new GameResponse();
+                gameResponse.StateMoves = new List<int>();
+
+                if (i > 0) mazeService.ResetBoard();
+
+                bool done = false;
+                int steps = 0;
+                while (!done)
                 {
-                    Item = _service.MakeMove()
-                };
+                    MoveAIResponse moveResponse = mazeService.MakeMove();
+                    done = moveResponse.IsDone;
+                    gameResponse.StateMoves.Add(moveResponse.NextState);
+                    steps++;
+                }
+                gameResponse.HasFoundExit = done;
+
+                response.GamesData.Add(gameResponse);
+
+                if (steps == minSteps) consecutiveMin++;
+                else consecutiveMin = 0;
+
+                if (steps < minSteps) minSteps = steps;
+                
+                if(consecutiveMin == 5)
+                {
+                    response.FoundMostEfficientPath = true;
+                    break;
+                }
             }
-            catch (Exception ex)
-            {
-                iCode = 500;
-                response = new ErrorResponse("Error Intializing Board");
-                base.Logger.LogError(ex.Message);
-            }
-            return StatusCode(iCode, response);
+            return response;
         }
     }
 }
