@@ -5,10 +5,14 @@ div.row div {
 
 .maze-grid {
     max-width: 25rem;
-    margin-left: 4rem;
-    margin-right: 2rem;
 }
 
 .maze-btn {
     display: block;
+}
+
+@media (min-width: 768px){
+    .d-flex-md {
+        display: flex !important;
+    }
 }

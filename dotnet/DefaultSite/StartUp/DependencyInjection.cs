@@ -13,9 +13,6 @@ namespace DefaultSite.Web.Api.StartUp
             }
 
             services.AddSingleton<IConfiguration>(configuration);
-            
-            services.AddSingleton<IBoardService, BoardService>();
-            services.AddSingleton<IMazeAIService, MazeAIService>();
 
         }
     }

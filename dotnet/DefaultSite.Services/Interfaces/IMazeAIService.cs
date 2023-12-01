@@ -9,7 +9,6 @@ namespace DefaultSite.Services.Interfaces
 {
     public interface IMazeAIService
     {
-        void InitiateBoard(int[][] grid);
         MoveAIResponse MakeMove();
         void ResetBoard();
     }

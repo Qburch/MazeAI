@@ -9,10 +9,9 @@ namespace DefaultSite.Services.Interfaces
 {
     public interface IBoardService
     {
-        void SetBoard(int[][] grid);
         void ResetBoard();
         int GetState();
-        List<int> GetPossibleMoves();
+        List<int> GetPossibleMoves(int aState);
         public int GetRandomMove(Random rand);
         MoveBoardResponse MakeMove(int action);
     }

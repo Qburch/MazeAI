@@ -10,34 +10,29 @@ namespace DefaultSite.Services
 {
     public class MazeAIService : IMazeAIService
     {
+        private Random _rand = new Random();
+
         private double _epsilon = 0.175;
         private const double _gamma = 0.8;
         private const double _decay = 0.05;
 
-        private double[][] _qTable = new double[1][];
 
+        private double[][] _qTable;
         private IBoardService _board;
 
-        private Random _rand;
-
-        public MazeAIService(IBoardService board)
+        public MazeAIService(int[][] grid)
         {
-            _board = board;
-            _rand = new Random();
-        }
-
-        public void InitiateBoard(int[][] grid)
-        {
-            _board.SetBoard(grid);
+            _board = new BoardService(grid);
 
             int totalStates = grid.Length * grid[0].Length;
             int actionsPerState = 4;
 
             _qTable = new double[totalStates][];
-            for(int i = 0; i < totalStates; i++)
+            for (int i = 0; i < totalStates; i++)
             {
                 _qTable[i] = Enumerable.Repeat(0, actionsPerState).Select(x => _rand.NextDouble()).ToArray();
             }
+
         }
 
         public void ResetBoard()
@@ -66,7 +61,7 @@ namespace DefaultSite.Services
         private double GetMaxQ(int aState)
         {
             double maxQ = double.MinValue;
-            foreach(int action in _board.GetPossibleMoves())
+            foreach(int action in _board.GetPossibleMoves(aState))
             {
                 maxQ = Math.Max(maxQ, _qTable[aState][action]);
             }
