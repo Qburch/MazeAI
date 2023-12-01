@@ -11,6 +11,11 @@ div.row div {
     display: block;
 }
 
+.legend-ele{
+    aspect-ratio: 1;
+    width: 2rem;
+}
+
 @media (min-width: 768px){
     .d-flex-md {
         display: flex !important;
