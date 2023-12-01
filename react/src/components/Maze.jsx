@@ -77,7 +77,8 @@ const Maze = (props) => {
                 steps: curGame.stateMoves.length
             });
 
-            for (let j = 0; j < curGame.stateMoves.length; j++){
+            let n = curGame.stateMoves.length;
+            for (let j = 0; j < n; j++){
                 
                 let curState = curGame.stateMoves[j];
                 console.log(path);
@@ -87,8 +88,9 @@ const Maze = (props) => {
                     pd.push(curState);
                     return pd;
                 });
-                if (i < 10) await new Promise((resolve) => setTimeout(resolve, 25)); 
-                else if (i >= 10 && i < 20) await new Promise((resolve) => setTimeout(resolve, 50)); 
+                if (n > 1000) await new Promise((resolve) => setTimeout(resolve, 10)); 
+                else if (n > 500) await new Promise((resolve) => setTimeout(resolve, 25)); 
+                else if (n > 100) await new Promise((resolve) => setTimeout(resolve, 50)); 
                 else await new Promise((resolve) => setTimeout(resolve, 100)); 
             }
             await new Promise((resolve) => setTimeout(resolve, 2000));
@@ -158,7 +160,7 @@ const Maze = (props) => {
             </div>
             <div className="col maze-grid ms-md-5 me-md-4 mx-auto">
                 <div className="d-flex">
-                    <button className="btn btn-primary my-2 maze-btn" onClick={onResetClicked}>Reset</button>
+                    <button className={"btn btn-primary my-2 maze-btn" + (hasStarted ? " transparent": "")} onClick={onResetClicked}>Reset</button>
                     {(defaultMaze && defaultMaze.length === maxRows && defaultMaze[0].length === maxCols ) 
                         && (
                         <button className="btn btn-info my-2 mx-2 maze-btn" onClick={onDefaultClicked}>Default</button>
@@ -166,29 +168,28 @@ const Maze = (props) => {
                 </div>
                 {(maze && maze.length > 0) && maze.map(mapRowToDispayRow)}
                 {(!maze || maze.length === 0) && <div>No maze to display</div>}
-                {!hasStarted && (
-                    <button className="btn btn-outline-danger my-2 maze-btn ms-auto me-0" onClick={onStartClicked}><FiPlay /> Start</button>
-                )}
+                <button className={"btn btn-outline-danger mt-2 maze-btn ms-auto me-0" + (hasStarted ? " transparent": "")} onClick={onStartClicked}><FiPlay /> Start</button>
+                
             </div>
 
-            <div className="me-auto mt-md-5 pt-md-2">
-                <div className="card border border-dark rounded bg-danger-subtle">
+            <div className="me-auto mt-md-5 pt-2 mt-2">
+                <div className="card legend-card border border-dark rounded bg-danger-subtle">
                     <div className="card-body">
                         <div className="d-flex"> 
                                 <div className="legend-ele bg-white border border-dark"/>
-                                <div className="p-1">- Open Space</div>
+                                <div className="ps-1">- Open Space</div>
                             </div>
                             <div className="d-flex mt-1"> 
                                 <div className="legend-ele bg-black border border-light" />
-                                <div className="p-1 ">- Wall</div>
+                                <div className="ps-1">- Wall</div>
                             </div>
                             <div className="d-flex mt-1"> 
                                 <div className="legend-ele bg-success border border-light" />
-                                <div className="p-1 ">- Starting Position</div>
+                                <div className="ps-1">- Starting Position</div>
                             </div>
                             <div className="d-flex mt-1"> 
                                 <div className="legend-ele bg-info border border-light" />
-                                <div className="p-1 ">- Path Taken</div>
+                                <div className="ps-1">- Path Taken</div>
                             </div>
                     </div>
                 </div>

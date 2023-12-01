@@ -13,11 +13,19 @@ div.row div {
 
 .legend-ele{
     aspect-ratio: 1;
-    width: 2rem;
+    width: 1.5rem;
+}
+
+.legend-card {
+    width: fit-content;
 }
 
 @media (min-width: 768px){
     .d-flex-md {
         display: flex !important;
     }
+}
+
+.transparent {
+    opacity: 0;
 }

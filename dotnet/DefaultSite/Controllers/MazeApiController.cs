@@ -52,18 +52,17 @@ namespace DefaultSite.Web.Api.Controllers
                 if (i > 0) mazeService.ResetBoard();
 
                 bool done = false;
-                int steps = 0;
                 while (!done)
                 {
                     MoveAIResponse moveResponse = mazeService.MakeMove();
                     done = moveResponse.IsDone;
                     gameResponse.StateMoves.Add(moveResponse.NextState);
-                    steps++;
                 }
                 gameResponse.HasFoundExit = done;
 
                 response.GamesData.Add(gameResponse);
 
+                int steps = gameResponse.StateMoves.Count;
                 if (steps == minSteps) consecutiveMin++;
                 else consecutiveMin = 0;
 
