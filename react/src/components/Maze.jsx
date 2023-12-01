@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import { FiPlay } from "react-icons/fi";
 import { runMazeAI } from "../services/mazeService"
 import toastr from "toastr"
@@ -13,9 +13,8 @@ const Maze = (props) => {
     
     const [maze, setMaze] = useState(initateGrid(maxRows, maxCols));
     const [path, setPath] = useState([]);
-
     const [hasStarted, setHasStarted] = useState(false);
-
+    const [gameInfo, setGameInfo] = useState(null);
 
 
     function initateGrid (rows, cols) {
@@ -73,38 +72,33 @@ const Maze = (props) => {
     
         for(let i = 0; i < res.gamesData.length; i++) {
             const curGame = res.gamesData[i];
-
-            if(curGame.hasFoundExit) toastr.info(`Found exit in ${curGame.stateMoves.length} steps`);
-            else toastr.warning("Exit not found in under 200 steps");
-            toastr.info("Game " + (i+1));
+            setGameInfo({
+                game: i + 1,
+                steps: curGame.stateMoves.length
+            });
 
             for (let j = 0; j < curGame.stateMoves.length; j++){
                 
                 let curState = curGame.stateMoves[j];
-
+                console.log(path);
                 if (j === 0) setPath([curState]);
                 else setPath((prevState) => {
                     let pd = [...prevState];
                     pd.push(curState);
                     return pd;
                 });
-                await new Promise((resolve) => setTimeout(resolve, 50));
+                if (i < 10) await new Promise((resolve) => setTimeout(resolve, 25)); 
+                else if (i >= 10 && i < 20) await new Promise((resolve) => setTimeout(resolve, 50)); 
+                else await new Promise((resolve) => setTimeout(resolve, 100)); 
             }
             await new Promise((resolve) => setTimeout(resolve, 2000));
         }
-        // await new Promise((resolve) => setTimeout(resolve, 2000));
         if (!res.foundMostEfficientPath)  toastr.error("Could not find the most efficient path");
         else toastr.success("Found the most efficient path");
     }
-
-
-    
-
     const onStartError = () => {
         console.log("Error starting the AI");
     }
-
-
 
     const mapRowToDispayRow = (rowArr, rowIdx) => {
         return(
@@ -128,31 +122,76 @@ const Maze = (props) => {
         }
     }
 
-    return (
-        <div className="d-flex-md my-md-5 my-3 px-3 px-md-0s">
-            <div className="col-md-3 ms-auto">
-                <h4>Create your own maze or choose the default option</h4>
-                <p className="mt-2">Fill in the maze by clicking on squares to change their color</p>
-                <p>Click Start to generate the AI which finds the most efficient path in the maze... wait a moment ... and see the spectacular results!</p>
-                <div className="mt-4">White - Open Space</div>
-                <div>Black - Wall</div>
-                <div>Green - Starting Position</div>
-                <div>Blue - Path Taken</div>
-            </div>
-            <div className="ms-md-5 me-md-4 my-3 my-md-0">
-                <button className="btn btn-primary my-2 maze-btn" onClick={onResetClicked}>Reset to Blank</button>
-                {(defaultMaze && defaultMaze.length === maxRows && defaultMaze[0].length === maxCols ) 
-                    && (
-                    <button className="btn btn-info my-2 maze-btn" onClick={onDefaultClicked}>Set to Default</button>
-                )}
 
+    const getInstructions = () => {
+        return(
+                <div className="card border border-dark rounded">
+                    <div className="card-header">
+                        <h4 className="card-title">Create your own maze or choose the default option</h4>
+                    </div>
+                    <div className="card-body">
+                        <p>Fill in the maze by clicking on squares to change their color!</p>
+                        <p>Click Start to generate the AI which finds the most efficient path in the maze... wait a moment ... and see the spectacular results!</p>
+                    </div>
+                </div>
+        )
+    }
+
+    const getGame = () => {
+        return (
+            <div className="card border border-dark rounded">
+            <div className="card-header">
+                <h4 className="card-title">Game {gameInfo.game}</h4>
             </div>
-            <div className="col maze-grid ms-md-0 mx-auto">
+            <div className="card-body">
+                <p>Exit Found in {gameInfo.steps} steps!</p>
+            </div>
+        </div>
+        )
+    }
+
+    return (
+        <div className="d-flex-md my-md-0 my-3 px-3 px-md-0">
+            <div className="col-md-4 ms-auto mt-md-5 pt-md-2">
+                {(!hasStarted || !gameInfo) && getInstructions()}
+                {(hasStarted && gameInfo) && getGame()}
+            </div>
+            <div className="col maze-grid ms-md-5 me-md-4 mx-auto">
+                <div className="d-flex">
+                    <button className="btn btn-primary my-2 maze-btn" onClick={onResetClicked}>Reset</button>
+                    {(defaultMaze && defaultMaze.length === maxRows && defaultMaze[0].length === maxCols ) 
+                        && (
+                        <button className="btn btn-info my-2 mx-2 maze-btn" onClick={onDefaultClicked}>Default</button>
+                    )}
+                </div>
                 {(maze && maze.length > 0) && maze.map(mapRowToDispayRow)}
                 {(!maze || maze.length === 0) && <div>No maze to display</div>}
-                {(!hasStarted) && (
+                {!hasStarted && (
                     <button className="btn btn-outline-danger my-2 maze-btn ms-auto me-0" onClick={onStartClicked}><FiPlay /> Start</button>
                 )}
+            </div>
+
+            <div className="me-auto mt-md-5 pt-md-2">
+                <div className="card border border-dark rounded bg-danger-subtle">
+                    <div className="card-body">
+                        <div className="d-flex"> 
+                                <div className="legend-ele bg-white border border-dark"/>
+                                <div className="p-1">- Open Space</div>
+                            </div>
+                            <div className="d-flex mt-1"> 
+                                <div className="legend-ele bg-black border border-light" />
+                                <div className="p-1 ">- Wall</div>
+                            </div>
+                            <div className="d-flex mt-1"> 
+                                <div className="legend-ele bg-success border border-light" />
+                                <div className="p-1 ">- Starting Position</div>
+                            </div>
+                            <div className="d-flex mt-1"> 
+                                <div className="legend-ele bg-info border border-light" />
+                                <div className="p-1 ">- Path Taken</div>
+                            </div>
+                    </div>
+                </div>
             </div>
 
         </div>
