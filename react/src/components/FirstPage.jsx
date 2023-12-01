@@ -30,7 +30,7 @@ const FirstPage = () => {
             <div className="text-center pt-2">
                 <h2>Welcome to see my AI in action!</h2>
             </div>
-                <Maze rows = {21} cols = {21} default = {defaultGrid}/>
+                <Maze rows = {7} cols = {8} default = {defaultGrid}/>
 
         </div>
     );

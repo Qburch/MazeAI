@@ -17,17 +17,19 @@ function App() {
         </div>
       </header>
 
-      <main role="main" className="bg-dark-subtle">
+      <main role="main" className="bg-dark-subtle pb-4">
         <Routes>
           <Route path="/" element={<FirstPage  />} />
         </Routes>
-        <button onClick={()=>console.log("clicked")}>Click Me</button>
       </main>
-      <footer className="container">
-          Created by Quinn Burch 2023-2024
-          <div className='d-flex'>
-            Made with <img src={logo} className='React-logo-footer pb-4 ms--2' alt="react-logo" />
+      <footer>
+          <div className='container pt-2'>
+            &copy; Quinn Burch 2023-2024
+            <div className='d-flex'>
+              Made with <img src={logo} className='React-logo-footer pb-4 ms--2' alt="react-logo" />
+            </div>
           </div>
+
       </footer>
     </React.Fragment>
   );
