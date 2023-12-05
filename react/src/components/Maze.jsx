@@ -32,6 +32,8 @@ const Maze = (props) => {
         steps: 0,
     });
 
+    const [doOnce, setDoOnce] = useState(true)
+
     useEffect(() => {
         let delay = 1000;
         let delayDif = 100;
@@ -40,11 +42,13 @@ const Maze = (props) => {
         let totalDelay = delay + (n - 2) * delayDif;
         if(endGame){
             setTimeout(() => {
-                setAiData((prevState) => {
-                    let pd = {...prevState};
-                    pd.gameIdx = -1;
-                    return pd;
-                });
+                if (doOnce) {
+                    setAiData((prevState) => {
+                        let pd = {...prevState};
+                        pd.gameIdx = -1;
+                        return pd;
+                    });
+                }
             }, totalDelay)
             console.log(totalDelay);
         }
@@ -69,11 +73,12 @@ const Maze = (props) => {
                 delay += delayDif;
             }
         }
-    },[curGame, endGame])
+    },[curGame, endGame, doOnce])
 
     useEffect(() => {
         if(aiData.gameIdx > -1 && aiData.gameIdx < aiData.allGames.length){
             let currentGame = aiData.allGames[aiData.gameIdx].stateMoves;
+            setDoOnce(true);
             setTimeout(() => {
                 setGameInfo({
                     game: aiData.gameIdx + 1,
@@ -83,6 +88,7 @@ const Maze = (props) => {
             setCurGame(currentGame);
         }
         else{
+             setDoOnce(false);
              setPath([]);
              setHasStarted(false);
              setGameInfo({
@@ -146,6 +152,8 @@ const Maze = (props) => {
         setEndGame(false);
         setCurGame([]);
         setHasStarted(true);
+        if (!res.foundMostEfficientPath)  toastr.error("Could not find the most efficient path");
+        else toastr.success("Found the most efficient path");
         setAiData({
             allGames : res.gamesData,
             gameIdx: 0
@@ -179,9 +187,14 @@ const Maze = (props) => {
             }
             await new Promise((resolve) => setTimeout(resolve, 2000));
         }
-        if (!res.foundMostEfficientPath)  toastr.error("Could not find the most efficient path");
-        else toastr.success("Found the most efficient path");
+
     }
+
+    const onEndSessionClicked = () => {
+        setEndGame(true);
+        toastr.warning("Maze will reset once current game completes");
+    }
+
     const onStartError = () => {
         console.log("Error starting the AI");
     }
@@ -253,7 +266,7 @@ const Maze = (props) => {
                 {(maze && maze.length > 0) && maze.map(mapRowToDispayRow)}
                 {(!maze || maze.length === 0) && <div>No maze to display</div>}
                 {(!hasStarted) && <button className="btn btn-outline-danger mt-2 maze-btn ms-auto me-0" onClick={onStartClicked}><FiPlay /> Start</button>}
-                {(hasStarted) && <button className="btn btn-danger mt-2 maze-btn ms-auto me-0" onClick={() => setEndGame(true)}><FiStopCircle /> End Game</button>}
+                {(hasStarted) && <button className="btn btn-danger mt-2 maze-btn ms-auto me-0" onClick={onEndSessionClicked}><FiStopCircle /> End Session</button>}
                 
             </div>
 
