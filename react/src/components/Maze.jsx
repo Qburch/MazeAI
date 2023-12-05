@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { FiPlay } from "react-icons/fi";
+import React, { useEffect, useState } from "react";
+import { FiPlay, FiStopCircle } from "react-icons/fi";
 import { runMazeAI } from "../services/mazeService"
 import toastr from "toastr"
 import "./Maze.css"
@@ -12,9 +12,91 @@ const Maze = (props) => {
     const initialPos = [1,1];
     
     const [maze, setMaze] = useState(initateGrid(maxRows, maxCols));
+    
+
+    const [aiData,setAiData] = useState({
+        allGames: [
+            {
+                stateMoves : [],
+            }
+        ],
+        gameIdx: 0
+    })
+    const [curGame,setCurGame] = useState([]);
     const [path, setPath] = useState([]);
+    const [endGame, setEndGame] = useState(false);
+
     const [hasStarted, setHasStarted] = useState(false);
-    const [gameInfo, setGameInfo] = useState(null);
+    const [gameInfo, setGameInfo] = useState({
+        game: 0,
+        steps: 0,
+    });
+
+    const [doOnce, setDoOnce] = useState(true)
+
+    useEffect(() => {
+        let delay = 1000;
+        let delayDif = 100;
+        let n = curGame.length;
+
+        let totalDelay = delay + (n - 2) * delayDif;
+        if(endGame){
+            setTimeout(() => {
+                if (doOnce) {
+                    setAiData((prevState) => {
+                        let pd = {...prevState};
+                        pd.gameIdx = -1;
+                        return pd;
+                    });
+                }
+            }, totalDelay)
+            console.log(totalDelay);
+        }
+        else{
+            for (let j = 0; j < n; j++){
+                setTimeout(() => {
+                    let curState = curGame[j];
+                    setPath((prevState) => {
+                        let pd = j !== 0 ? [...prevState] : [curState];
+                        pd.push(curState);
+                        return pd;
+                    });
+                    if(j === n - 1){
+                        setAiData((prevState) => {
+                            let pd = {...prevState};
+                            pd.gameIdx += 1;
+                            return pd;
+                        });
+                    }
+                },delay);
+                if (j === n -1) console.log("target delay " + delay +  " : " + n);
+                delay += delayDif;
+            }
+        }
+    },[curGame, endGame, doOnce])
+
+    useEffect(() => {
+        if(aiData.gameIdx > -1 && aiData.gameIdx < aiData.allGames.length){
+            let currentGame = aiData.allGames[aiData.gameIdx].stateMoves;
+            setDoOnce(true);
+            setTimeout(() => {
+                setGameInfo({
+                    game: aiData.gameIdx + 1,
+                    steps: currentGame.length,
+                });
+            },1000)
+            setCurGame(currentGame);
+        }
+        else{
+             setDoOnce(false);
+             setPath([]);
+             setHasStarted(false);
+             setGameInfo({
+                game: 0,
+                steps: 0
+             })
+        }
+    },[aiData]);
 
 
     function initateGrid (rows, cols) {
@@ -62,14 +144,24 @@ const Maze = (props) => {
     }
 
     const onStartClicked = () => {
-        setPath([]);
-        setHasStarted(true)
         runMazeAI(maze).then(onStartSuccess).catch(onStartError);
     }
 
     const onStartSuccess = async (response) => {
         const res = response.data.item;
-    
+        setEndGame(false);
+        setCurGame([]);
+        setHasStarted(true);
+        if (!res.foundMostEfficientPath)  toastr.error("Could not find the most efficient path");
+        else toastr.success("Found the most efficient path");
+        setAiData({
+            allGames : res.gamesData,
+            gameIdx: 0
+        });
+    }
+
+    const prevOnStartSuccess = async (response)=> {
+        const res = response.data.item;
         for(let i = 0; i < res.gamesData.length; i++) {
             const curGame = res.gamesData[i];
             setGameInfo({
@@ -95,9 +187,14 @@ const Maze = (props) => {
             }
             await new Promise((resolve) => setTimeout(resolve, 2000));
         }
-        if (!res.foundMostEfficientPath)  toastr.error("Could not find the most efficient path");
-        else toastr.success("Found the most efficient path");
+
     }
+
+    const onEndSessionClicked = () => {
+        setEndGame(true);
+        toastr.warning("Maze will reset once current game completes");
+    }
+
     const onStartError = () => {
         console.log("Error starting the AI");
     }
@@ -155,8 +252,8 @@ const Maze = (props) => {
     return (
         <div className="d-flex-md my-md-0 my-3 px-3 px-md-0">
             <div className="col-md-4 ms-auto mt-md-5 pt-md-2">
-                {(!hasStarted || !gameInfo) && getInstructions()}
-                {(hasStarted && gameInfo) && getGame()}
+                {(!hasStarted || gameInfo.steps === 0) && getInstructions()}
+                {(hasStarted && gameInfo.steps > 0) && getGame()}
             </div>
             <div className="col maze-grid ms-md-5 me-md-4 mx-auto">
                 <div className="d-flex">
@@ -168,7 +265,8 @@ const Maze = (props) => {
                 </div>
                 {(maze && maze.length > 0) && maze.map(mapRowToDispayRow)}
                 {(!maze || maze.length === 0) && <div>No maze to display</div>}
-                <button className={"btn btn-outline-danger mt-2 maze-btn ms-auto me-0" + (hasStarted ? " transparent": "")} onClick={onStartClicked}><FiPlay /> Start</button>
+                {(!hasStarted) && <button className="btn btn-outline-danger mt-2 maze-btn ms-auto me-0" onClick={onStartClicked}><FiPlay /> Start</button>}
+                {(hasStarted) && <button className="btn btn-danger mt-2 maze-btn ms-auto me-0" onClick={onEndSessionClicked}><FiStopCircle /> End Session</button>}
                 
             </div>
 
